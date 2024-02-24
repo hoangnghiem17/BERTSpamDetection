@@ -1,8 +1,9 @@
 # BERTSpamDetection
-The goal of this project is to finetune BertForSequenceClassification to classify english spam emails. Companies deal with an immense amount of emails everyday, in which spam emails can creep into this flood of emails. They are very difficult and inefficient to identify manually. A large number of spam emails nowadays are cyber attacks, which poses large financial, operational and reputational risks for companies. By using a finetuned BERT model to automatically detect spam emails, companies increase their security by minimizing the risk of cyber security attacks while saving increasing the productivity of employees.
+The goal of this project is to finetune BertForSequenceClassification to classify english spam emails (https://huggingface.co/docs/transformers/model_doc/bert#transformers.BertForSequenceClassification).
+Companies deal with an immense amount of emails everyday, in which spam emails can creep into. They are very difficult and inefficient to identify manually. A large number of spam emails nowadays are cyber attacks, which poses large financial, operational and reputational risks for companies. By using a finetuned BERT model to automatically detect spam emails, companies minimize the risk of cyber security attacks while increasing the productivity of employees.
 
 #### Dataset 
-A public dataset from Kaggle with 5.171 english emails, out of which 41% are spam emails were used to finetune the BERT model after applying appropriate data transformations 
+A public dataset from Kaggle with 5.171 english emails, out of which 41% are spam emails were used to finetune the BERT model after applying appropriate data transformations (https://www.kaggle.com/code/ayhampar/spam-ham-dataset/input).
 
 #### Evaluation
 The effect of the finetuning process was evaluated by comparing the spam detection quality of base BERT and finetuned BERT. Both were used to classify spam emails from 3 different sources:
